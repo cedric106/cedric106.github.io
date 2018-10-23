@@ -1,9 +1,9 @@
-
+/*
  setTimeout(() => {
     console.log('Alligator!!!!');
   }, 8000);               
-                
-/*
+     */           
+
 var addressInput = document.getElementById('address');
 var messageInput = document.getElementById('test');
 
