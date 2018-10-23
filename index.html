@@ -6,8 +6,21 @@
                          <input id="test" type="text" placeholder="Enter message" />
                          <button type="submit">submit!</button>
                 </form>
-                <script src='sProd.js'>
-                
+                <script>
+                    
+                    var addressInput = document.getElementById('address');
+                    var messageInput = document.getElementById('test');
+
+                    document.querySelector('form.pure-form').addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        console.log(addressInput.value);    
+                    });
+
+                    document.querySelector('form.pure-form').addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        console.log(messageInput.value);    
+                    });
+
                 </script>
         </body>
 </html>
